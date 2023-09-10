@@ -633,7 +633,7 @@ if menu=='Посещения':
     db_content = request.fetch().items
     for slash in range(0, len(db_content)+1):
         st.write(db_content[slash])
-        if st.button('Удалить запрос'):
+        if st.button(f'Удалить запрос{slash}'):
             slash+=1
             request.delete(f'{slash}')
 if menu=='Перевод':
