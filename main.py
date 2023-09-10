@@ -445,7 +445,7 @@ if menu == 'Принятые запросы':
                 if len(wait_end['Канада'])>0:
                     chose = wait_end['Канада']
                     shit_end1, shit_end2, shit_end3, shit_end4 = country3['shit1'], country3['shit2'], country3['shit3'], country3['shit4']
-                    ec1, ec2, ec3, ec14 = country3['eco1'], country3['eco2'], country3['eco3'], country3['eco4']
+                    ec1, ec2, ec3, ec4 = country3['eco1'], country3['eco2'], country3['eco3'], country3['eco4']
                     up1, up2, up3, up4 = country3['up1'], country3['up2'], country3['up3'], country3['up4']
                     for o in range(0, len(chose)):
                         if chose[o] == 'Оттава':
