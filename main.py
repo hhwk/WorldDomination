@@ -281,7 +281,7 @@ if menu == 'Принятые запросы':
                     else:
                         reserch=0
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country1['roket']+roket_end,
-                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
+                                   'shit1': shit_end[0]+country1['shit1'], 'shit2': shit_end[1]+country1['shit2'], 'shit3': shit_end[2]+country1['shit3'], 'shit4': shit_end[3]+country1['shit4'],
                                    'up1': country1['up1']+up_end1, 'up2': country1['up2']+up_end2, 'up3': country1['up3']+up_end3, 'up4': country1['up4']+up_end4,
                                    'eco1': country1['eco1']+up_end1,'eco2': country1['eco2']+up_end2,'eco3': country1['eco3']+up_end3,'eco4': country1['eco4']+up_end4}, 'India')
                 elif wait_end['info'].find('Siria') > 0:
@@ -292,7 +292,7 @@ if menu == 'Принятые запросы':
                     else:
                         reserch = 0
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country2['roket']+roket_end,
-                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
+                                   'shit1': shit_end[0]+country2['shit1'], 'shit2': shit_end[1]+country2['shit2'], 'shit3': shit_end[2]+country2['shit3'], 'shit4': shit_end[3]+country2['shit4'],
                                    'up1': country2['up1'] + up_end1, 'up2': country2['up2'] + up_end2,
                                    'up3': country2['up3'] + up_end3, 'up4': country2['up4'] + up_end4,
                                    'eco1': country2['eco1'] + up_end1, 'eco2': country2['eco2'] + up_end2,
@@ -305,7 +305,7 @@ if menu == 'Принятые запросы':
                     else:
                         reserch = 0
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country3['roket']+roket_end,
-                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
+                                   'shit1': shit_end[0]+country3['shit1'], 'shit2': shit_end[1]+country3['shit2'], 'shit3': shit_end[2]+country3['shit3'], 'shit4': shit_end[3]+country3['shit4'],
                                    'up1': country3['up1'] + up_end1, 'up2': country3['up2'] + up_end2,
                                    'up3': country3['up3'] + up_end3, 'up4': country3['up4'] + up_end4,
                                    'eco1': country3['eco1'] + up_end1, 'eco2': country3['eco2'] + up_end2,
@@ -318,7 +318,7 @@ if menu == 'Принятые запросы':
                     else:
                         reserch = 0
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country4['roket']+roket_end,
-                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
+                                   'shit1': shit_end[0]+country4['shit1'], 'shit2': shit_end[1]+country4['shit2'], 'shit3': shit_end[2]+country4['shit3'], 'shit4': shit_end[3]+country4['shit4'],
                                    'up1': country4['up1'] + up_end1, 'up2': country4['up2'] + up_end2,
                                    'up3': country4['up3'] + up_end3, 'up4': country4['up4'] + up_end4,
                                    'eco1': country4['eco1'] + up_end1, 'eco2': country4['eco2'] + up_end2,
@@ -331,7 +331,7 @@ if menu == 'Принятые запросы':
                     else:
                         reserch = 0
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country5['roket']+roket_end,
-                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
+                                   'shit1': shit_end[0]+country5['shit1'], 'shit2': shit_end[1]+country5['shit2'], 'shit3': shit_end[2]+country5['shit3'], 'shit4': shit_end[3]+country5['shit4'],
                                    'up1': country5['up1'] + up_end1, 'up2': country5['up2'] + up_end2, 'up3': country5['up3'] + up_end3,
                                    'up4': country5['up4'] + up_end4,
                                    'eco1': country5['eco1'] + up_end1, 'eco2': country5['eco2'] + up_end2,
@@ -344,7 +344,7 @@ if menu == 'Принятые запросы':
                     else:
                         reserch = 0
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country6['roket']+roket_end,
-                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
+                                   'shit1': shit_end[0]+country6['shit1'], 'shit2': shit_end[1]+country6['shit2'], 'shit3': shit_end[2]+country6['shit3'], 'shit4': shit_end[3]+country6['shit4'],
                                    'up1': country6['up1'] + up_end1, 'up2': country6['up2'] + up_end2,
                                    'up3': country6['up3'] + up_end3,'up4': country6['up4'] + up_end4,
                                    'eco1': country6['eco1'] + up_end1, 'eco2': country6['eco2'] + up_end2,
