@@ -785,11 +785,11 @@ if Country_Name!='vjcrdf11' and Country_Name!='':
                         keys1=len(log_content)+1
                         log.put({'key':f'{keys1}','info': f'{nowtime}{Country_Name}','operation':'attak', 'Индия':  attak, 'Канада': attak1,'Сирия': attak2, 'Швеция': attak3,
                                    'Испания': attak4,'Россия':attak5,'final_roket':final_roket})
-                        db_content = Attak.fetch().items
-                        st.write(db_content)
+                        #db_content = Attak.fetch().items
+                        #st.write(db_content)
                         with st.spinner('Wait for it...'):
                             time.sleep(1)
-                        st.success('Данные обновлены!')
+                            st.success('Данные обновлены!')
                     elif final_roket == -1999:
                         st.error('Дружок не надо мне засарять базу данных...')
                     else:
@@ -916,7 +916,7 @@ if Country_Name!='vjcrdf11' and Country_Name!='':
                     with st.spinner('Wait for it...'):
                         time.sleep(1)
                         st.success('Данные обновлены!')
-                        db_content = db.fetch().items
+                        #db_content = db.fetch().items
                         #st.write(db_content)
                 else:
                     st.error('Вы потратили больше денег чем у вас есть...')
