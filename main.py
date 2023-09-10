@@ -264,7 +264,7 @@ if menu == 'Принятые запросы':
             end+=1
             wait_end=wait.get(f'{end}')
             if wait_end['action']=='attak' and int(wait_end['key'])>1:
-                key=wait_end['key']-1
+                key=int(wait_end['key'])-1
                 wait.update({'key':f'{key}'})
             elif wait_end['action']=='up':
                 money_end = wait_end['money']
