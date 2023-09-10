@@ -281,8 +281,16 @@ if menu == 'Принятые запросы':
                         reserch=1
                     else:
                         reserch=0
+                    if country1['shit1']=='🛡️':
+                        shit_end[0]='🛡️'
+                    if country1['shit2']=='🛡️':
+                        shit_end[1] = '🛡️'
+                    if country1['shit3']=='🛡️':
+                        shit_end[2] = '🛡️'
+                    if country1['shit4']=='🛡️':
+                        shit_end[3] = '🛡️'
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country1['roket']+roket_end,
-                                   'shit1': shit_end[0]+country1['shit1'], 'shit2': shit_end[1]+country1['shit2'], 'shit3': shit_end[2]+country1['shit3'], 'shit4': shit_end[3]+country1['shit4'],
+                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
                                    'up1': country1['up1']+up_end1, 'up2': country1['up2']+up_end2, 'up3': country1['up3']+up_end3, 'up4': country1['up4']+up_end4,
                                    'eco1': country1['eco1']+up_end1,'eco2': country1['eco2']+up_end2,'eco3': country1['eco3']+up_end3,'eco4': country1['eco4']+up_end4}, 'India')
                 elif wait_end['info'].find('Siria') > 0:
@@ -292,8 +300,16 @@ if menu == 'Принятые запросы':
                         reserch = 1
                     else:
                         reserch = 0
+                    if country2['shit1']=='🛡️':
+                        shit_end[0]='🛡️'
+                    if country2['shit2']=='🛡️':
+                        shit_end[1] = '🛡️'
+                    if country2['shit3']=='🛡️':
+                        shit_end[2] = '🛡️'
+                    if country2['shit4']=='🛡️':
+                        shit_end[3] = '🛡️'
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country2['roket']+roket_end,
-                                   'shit1': shit_end[0]+country2['shit1'], 'shit2': shit_end[1]+country2['shit2'], 'shit3': shit_end[2]+country2['shit3'], 'shit4': shit_end[3]+country2['shit4'],
+                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
                                    'up1': country2['up1'] + up_end1, 'up2': country2['up2'] + up_end2,
                                    'up3': country2['up3'] + up_end3, 'up4': country2['up4'] + up_end4,
                                    'eco1': country2['eco1'] + up_end1, 'eco2': country2['eco2'] + up_end2,
@@ -305,8 +321,16 @@ if menu == 'Принятые запросы':
                         reserch = 1
                     else:
                         reserch = 0
+                    if country3['shit1']=='🛡️':
+                        shit_end[0]='🛡️'
+                    if country3['shit2']=='🛡️':
+                        shit_end[1] = '🛡️'
+                    if country3['shit3']=='🛡️':
+                        shit_end[2] = '🛡️'
+                    if country3['shit4']=='🛡️':
+                        shit_end[3] = '🛡️'
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country3['roket']+roket_end,
-                                   'shit1': shit_end[0]+country3['shit1'], 'shit2': shit_end[1]+country3['shit2'], 'shit3': shit_end[2]+country3['shit3'], 'shit4': shit_end[3]+country3['shit4'],
+                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
                                    'up1': country3['up1'] + up_end1, 'up2': country3['up2'] + up_end2,
                                    'up3': country3['up3'] + up_end3, 'up4': country3['up4'] + up_end4,
                                    'eco1': country3['eco1'] + up_end1, 'eco2': country3['eco2'] + up_end2,
@@ -318,8 +342,16 @@ if menu == 'Принятые запросы':
                         reserch = 1
                     else:
                         reserch = 0
+                    if country4['shit1']=='🛡️':
+                        shit_end[0]='🛡️'
+                    if country4['shit2']=='🛡️':
+                        shit_end[1] = '🛡️'
+                    if country4['shit3']=='🛡️':
+                        shit_end[2] = '🛡️'
+                    if country4['shit4']=='🛡️':
+                        shit_end[3] = '🛡️'
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country4['roket']+roket_end,
-                                   'shit1': shit_end[0]+country4['shit1'], 'shit2': shit_end[1]+country4['shit2'], 'shit3': shit_end[2]+country4['shit3'], 'shit4': shit_end[3]+country4['shit4'],
+                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
                                    'up1': country4['up1'] + up_end1, 'up2': country4['up2'] + up_end2,
                                    'up3': country4['up3'] + up_end3, 'up4': country4['up4'] + up_end4,
                                    'eco1': country4['eco1'] + up_end1, 'eco2': country4['eco2'] + up_end2,
@@ -331,8 +363,16 @@ if menu == 'Принятые запросы':
                         reserch = 1
                     else:
                         reserch = 0
+                    if country5['shit1']=='🛡️':
+                        shit_end[0]='🛡️'
+                    if country5['shit2']=='🛡️':
+                        shit_end[1] = '🛡️'
+                    if country5['shit3']=='🛡️':
+                        shit_end[2] = '🛡️'
+                    if country5['shit4']=='🛡️':
+                        shit_end[3] = '🛡️'
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country5['roket']+roket_end,
-                                   'shit1': shit_end[0]+country5['shit1'], 'shit2': shit_end[1]+country5['shit2'], 'shit3': shit_end[2]+country5['shit3'], 'shit4': shit_end[3]+country5['shit4'],
+                                   'shit1': shit_end[0], 'shit2': shit_end[1], 'shit3': shit_end[2], 'shit4': shit_end[3],
                                    'up1': country5['up1'] + up_end1, 'up2': country5['up2'] + up_end2, 'up3': country5['up3'] + up_end3,
                                    'up4': country5['up4'] + up_end4,
                                    'eco1': country5['eco1'] + up_end1, 'eco2': country5['eco2'] + up_end2,
@@ -344,6 +384,14 @@ if menu == 'Принятые запросы':
                         reserch = 1
                     else:
                         reserch = 0
+                    if country6['shit1']=='🛡️':
+                        shit_end[0]='🛡️'
+                    if country6['shit2']=='🛡️':
+                        shit_end[1] = '🛡️'
+                    if country6['shit3']=='🛡️':
+                        shit_end[2] = '🛡️'
+                    if country6['shit4']=='🛡️':
+                        shit_end[3] = '🛡️'
                     Global.update({'money': money_end, 'reserch': reserch, 'roket': country6['roket']+roket_end,
                                    'shit1': shit_end[0]+country6['shit1'], 'shit2': shit_end[1]+country6['shit2'], 'shit3': shit_end[2]+country6['shit3'], 'shit4': shit_end[3]+country6['shit4'],
                                    'up1': country6['up1'] + up_end1, 'up2': country6['up2'] + up_end2,
@@ -367,7 +415,7 @@ if menu == 'Принятые запросы':
                     up1, up2, up3, up4 = country2['up1'], country2['up2'], country2['up3'], country2['up4']
                     for o in range(0, len(chose)):
                         if chose[o]=='Дамаск':
-                            if country2['shit1']==' 🛡️':
+                            if country2['shit1']=='🛡️':
                                 ec1-=20
                                 shit_end1 = ' '
                             else:
@@ -375,7 +423,7 @@ if menu == 'Принятые запросы':
                                 up1=0
                             roket+=1
                         elif chose[o]=='Хама':
-                            if country2['shit2']== ' 🛡️':
+                            if country2['shit2']== '🛡️':
                                 ec2 -= 20
                                 shit_end2 = ' '
                             else:
@@ -383,7 +431,7 @@ if menu == 'Принятые запросы':
                                 up2 = 0
                             roket += 1
                         elif chose[o]=='Дума':
-                            if country2['shit3']== ' 🛡️':
+                            if country2['shit3']== '🛡️':
                                 ec3 -= 20
                                 shit_end3 = ' '
                             else:
@@ -391,7 +439,7 @@ if menu == 'Принятые запросы':
                                 up3 = 0
                             roket += 1
                         elif chose[o]=='Ракка':
-                            if country2['shit4']== ' 🛡️':
+                            if country2['shit4']== '🛡️':
                                 ec4 -= 20
                                 shit_end4 = ' '
                             else:
@@ -407,7 +455,7 @@ if menu == 'Принятые запросы':
                     up1, up2, up3, up4 = country1['up1'], country1['up2'], country1['up3'], country1['up4']
                     for o in range(0, len(chose)):
                         if chose[o] == 'Нью-Дели':
-                            if country1['shit1']== ' 🛡️':
+                            if country1['shit1']== '🛡️':
                                 ec1 -= 20
                                 shit_end1 = ' '
                             else:
@@ -415,7 +463,7 @@ if menu == 'Принятые запросы':
                                 up1 = 0
                             roket += 1
                         elif chose[o] == 'Бангалор':
-                            if country1['shit2']== ' 🛡️':
+                            if country1['shit2']== '🛡️':
                                 ec2 -= 20
                                 shit_end2 = ' '
                             else:
@@ -423,7 +471,7 @@ if menu == 'Принятые запросы':
                                 up2 = 0
                             roket += 1
                         elif chose[o] == 'Агра':
-                            if country1['shit3']== ' 🛡️':
+                            if country1['shit3']== '🛡️':
                                 ec3 -= 20
                                 shit_end3 = ' '
                             else:
@@ -431,7 +479,7 @@ if menu == 'Принятые запросы':
                                 up3 = 0
                             roket += 1
                         elif chose[o] == 'Сурат':
-                            if country1['shit4']== ' 🛡️':
+                            if country1['shit4']== '🛡️':
                                 ec4 -= 20
                                 shit_end4 = ' '
                             else:
@@ -449,7 +497,7 @@ if menu == 'Принятые запросы':
                     up1, up2, up3, up4 = country3['up1'], country3['up2'], country3['up3'], country3['up4']
                     for o in range(0, len(chose)):
                         if chose[o] == 'Оттава':
-                            if country3['shit1']== ' 🛡️':
+                            if country3['shit1']== '🛡️':
                                 ec1 -= 20
                                 shit_end1 = ' '
                             else:
@@ -457,7 +505,7 @@ if menu == 'Принятые запросы':
                                 up1 = 0
                             roket += 1
                         elif chose[o] == 'Торонто':
-                            if country3['shit2']== ' 🛡️':
+                            if country3['shit2']== '🛡️':
                                 ec2 -= 20
                                 shit_end2 = ' '
                             else:
@@ -465,7 +513,7 @@ if menu == 'Принятые запросы':
                                 up2 = 0
                             roket += 1
                         elif chose[o] == 'Ванкувер':
-                            if country3['shit3']== ' 🛡️':
+                            if country3['shit3']== '🛡️':
                                 ec3 -= 20
                                 shit_end3 = ' '
                             else:
@@ -473,7 +521,7 @@ if menu == 'Принятые запросы':
                                 up3 = 0
                             roket += 1
                         elif chose[o] == 'Виктория':
-                            if country3['shit4']== ' 🛡️':
+                            if country3['shit4']== '🛡️':
                                 ec4 -= 20
                                 shit_end4 = ' '
                             else:
@@ -491,7 +539,7 @@ if menu == 'Принятые запросы':
                     up1, up2, up3, up4 = country4['up1'], country4['up2'], country4['up3'], country4['up4']
                     for o in range(0, len(chose)):
                         if chose[o] == 'Стокгольм':
-                            if country4['shit1']== ' 🛡️':
+                            if country4['shit1']== '🛡️':
                                 ec1 -= 20
                                 shit_end1 = ' '
                             else:
@@ -499,7 +547,7 @@ if menu == 'Принятые запросы':
                                 up1 = 0
                             roket += 1
                         elif chose[o] == 'Мальмё':
-                            if country4['shit2']== ' 🛡️':
+                            if country4['shit2']== '🛡️':
                                 ec2 -= 20
                                 shit_end2 = ' '
                             else:
@@ -507,7 +555,7 @@ if menu == 'Принятые запросы':
                                 up2 = 0
                             roket += 1
                         elif chose[o] == 'Кируна':
-                            if country4['shit3']== ' 🛡️':
+                            if country4['shit3']== '🛡️':
                                 ec3 -= 20
                                 shit_end3 = ' '
                             else:
@@ -515,7 +563,7 @@ if menu == 'Принятые запросы':
                                 up3 = 0
                             roket += 1
                         elif chose[o] == 'Сигнута':
-                            if country4['shit4']== ' 🛡️':
+                            if country4['shit4']== '🛡️':
                                 ec4 -= 20
                                 shit_end4 = ' '
                             else:
@@ -533,7 +581,7 @@ if menu == 'Принятые запросы':
                     up1, up2, up3, up4 = country5['up1'], country5['up2'], country5['up3'], country5['up4']
                     for o in range(0,len(chose)):
                         if chose[o] == 'Москва':
-                            if country5['shit1']== ' 🛡️':
+                            if country5['shit1']== '🛡️':
                                 ec1 -= 20
                                 shit_end1=' '
                             else:
@@ -541,7 +589,7 @@ if menu == 'Принятые запросы':
                                 up1 = 0
                             roket += 1
                         elif chose[o] == 'Санкт-Петербург':
-                            if country5['shit2']== ' 🛡️':
+                            if country5['shit2']== '🛡️':
                                 ec2 -= 20
                                 shit_end2=' '
                             else:
@@ -549,7 +597,7 @@ if menu == 'Принятые запросы':
                                 up2 = 0
                             roket += 1
                         elif chose[o] == 'Екатеринбург':
-                            if country5['shit3']== ' 🛡️':
+                            if country5['shit3']== '🛡️':
                                 ec3 -= 20
                                 shit_end3=' '
                             else:
@@ -557,7 +605,7 @@ if menu == 'Принятые запросы':
                                 up3 = 0
                             roket += 1
                         elif chose[o] == 'Магадан':
-                            if country5['shit4']== ' 🛡️':
+                            if country5['shit4']== '🛡️':
                                 ec4 -= 20
                                 shit_end4=' '
                             else:
@@ -574,7 +622,7 @@ if menu == 'Принятые запросы':
                     up1, up2, up3, up4 = country6['up1'], country6['up2'], country6['up3'], country6['up4']
                     for o in range(0, len(chose)):
                         if chose[o] == 'Мадрид':
-                            if country6['shit1']== ' 🛡️':
+                            if country6['shit1']== '🛡️':
                                 ec1 -= 20
                                 shit_end1 = ' '
                             else:
@@ -582,7 +630,7 @@ if menu == 'Принятые запросы':
                                 up1 = 0
                             roket += 1
                         elif chose[o] == 'Барселона':
-                            if country6['shit2']== ' 🛡️':
+                            if country6['shit2']== '🛡️':
                                 ec2 -= 20
                                 shit_end1 = ' '
                             else:
@@ -590,7 +638,7 @@ if menu == 'Принятые запросы':
                                 up2 = 0
                             roket += 1
                         elif chose[o] == 'Пальма':
-                            if country6['shit3']== ' 🛡️':
+                            if country6['shit3']== '🛡️':
                                 ec3 -= 20
                                 shit_end1 = ' '
                             else:
@@ -598,7 +646,7 @@ if menu == 'Принятые запросы':
                                 up3 = 0
                             roket += 1
                         elif chose[o] == 'Гранда':
-                            if country6['shit4']== ' 🛡️':
+                            if country6['shit4']== '🛡️':
                                 ec4 -= 20
                                 shit_end1 = ' '
                             else:
@@ -786,8 +834,6 @@ if Country_Name!='vjcrdf11' and Country_Name!='':
                         keys1=len(log_content)+1
                         log.put({'key':f'{keys1}','info': f'{nowtime}{Country_Name}','operation':'attak', 'Индия':  attak, 'Канада': attak1,'Сирия': attak2, 'Швеция': attak3,
                                    'Испания': attak4,'Россия':attak5,'final_roket':final_roket})
-                        #db_content = Attak.fetch().items
-                        #st.write(db_content)
                         with st.spinner('Wait for it...'):
                             time.sleep(1)
                             st.success('Данные обновлены!')
@@ -917,8 +963,6 @@ if Country_Name!='vjcrdf11' and Country_Name!='':
                     with st.spinner('Wait for it...'):
                         time.sleep(1)
                         st.success('Данные обновлены!')
-                        #db_content = db.fetch().items
-                        #st.write(db_content)
                 else:
                     st.error('Вы потратили больше денег чем у вас есть...')
 
