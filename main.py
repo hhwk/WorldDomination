@@ -917,7 +917,7 @@ if Country_Name!='vjcrdf11' and Country_Name!='':
                         time.sleep(1)
                         st.success('Данные обновлены!')
                         db_content = db.fetch().items
-                        st.write(db_content)
+                        #st.write(db_content)
                 else:
                     st.error('Вы потратили больше денег чем у вас есть...')
 
