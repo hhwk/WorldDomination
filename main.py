@@ -148,6 +148,7 @@ elif new_string=='vjcrdf11':
     menu=st.sidebar.selectbox('Меню',('Улучшение','Запуск ракет','Принятые запросы','Посещения','Перевод','Деньги','Логи'))
 
 current_datetime = datetime.now()
+deta = Deta("c07jfupdsmg_p62nqhnHwentnUYMZRxqXC4fxCzNEKyG")
 Global = deta.Base("play")
 if Country_Name!='':
     city = Global.get(f'{Country_Name}')
