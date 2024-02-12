@@ -682,7 +682,7 @@ if menu=='Посещения':
     db_content = request.fetch().items
     if db_content[len(dn_content)]['key']<len(db_content):
         for p in renage(0, len(db_content)):
-            request.update({'key':p+1},db_content[p]['key']
+            request.update({'key':p+1},f'{db_content[p]['key']}'
     for slash in range(0, len(db_content)):
         st.write(db_content[slash])
         st.write(db_content[slash]['key'])
