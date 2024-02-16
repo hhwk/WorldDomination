@@ -687,7 +687,8 @@ if menu=='Посещения':
     for slash in range(0, len(db_content)):
         st.write(db_content[slash])
         st.write(db_content[slash]['key'])
-        st.write('хух',db_content[len(db_content)]['key'])
+        xxx=len(db_content)
+        st.write('хух',db_content[xxx]['key'])
         if st.button(f'Удалить запрос{slash}'):
             slash+=1
             request.delete(f'{slash}')
