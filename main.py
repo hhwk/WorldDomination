@@ -680,14 +680,13 @@ if menu == 'Принятые запросы':
 if menu=='Посещения':
     st.info('Запросы на посещения')
     db_content = request.fetch().items
-    #if db_content[len(db_content)]['key']<len(db_content):
-        #for p in renage(0, len(db_content)):
-            #pp=db_content[p]['key']
-            #request.update({'key':p+1},f'{pp}')
+    if db_content[len(db_content)]['key']<len(db_content):
+        for p in renage(0, len(db_content)):
+            pp=db_content[p]['key']
+            request.update({'key':p+1},f'{pp}')
     for slash in range(0, len(db_content)):
         st.write(db_content[slash])
         st.write(db_content[slash]['key'])
-        st.write(len(db_content))
         if st.button(f'Удалить запрос{slash}'):
             slash+=1
             request.delete(f'{slash}')
