@@ -681,7 +681,7 @@ if menu=='Посещения':
     st.info('Запросы на посещения')
     db_content = request.fetch().items
     st.write(int(db_content[len(db_content)-1]['key']),' и ',len(db_content))
-    if int(db_content[len(db_content)-1]['key'])<len(db_content):
+    if int(db_content[len(db_content)-1]['key'])>len(db_content):
         for p in renage(0, len(db_content)):
             pp=db_content[p]['key']
             request.update({'key':p+1},f'{pp}')
