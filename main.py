@@ -930,7 +930,7 @@ if Country_Name!='vjcrdf11' and Country_Name!='':
                 money -= cost_shit
         shit3 = st.checkbox(f'{city_4} ')
         if shit3:
-            if city['shit4'] == ' 🛡️':
+            if city['shit4'] == '🛡️':
                 st.error('Дружок, у нас так не принято. По 1 щиту на город...')
             else:
                 masiv_shit[3] += '🛡️'
